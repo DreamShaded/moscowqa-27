@@ -45,3 +45,11 @@
 	text-wrap: balance;
 	color: var(--color);
 }
+
+/* QR на финальном слайде: высота фиксирована, чтобы не выдавить мету колоды за слайд */
+.cover__slot .cover-qr {
+	height: 18rem;
+	width: auto;
+	margin-top: 1rem;
+	border-radius: 0.75rem;
+}
