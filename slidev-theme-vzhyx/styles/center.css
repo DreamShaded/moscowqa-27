@@ -60,3 +60,38 @@
 	max-width: 90%;
 	height: auto;
 }
+
+/* image on (almost) the whole slide, with a source caption underneath */
+.slidev-layout.center .center__container:has(> figure.center-full) {
+	max-width: none;
+	/* высота обязана быть определённой: иначе проценты внутри figure не резолвятся */
+	height: 100%;
+}
+
+.slidev-layout.center .center__container figure.center-full {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	margin: 0;
+}
+
+.slidev-layout.center .center__container figure.center-full img {
+	flex: 1 1 auto;
+	min-height: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.slidev-layout.center .center__container figure.center-full figcaption {
+	flex: 0 0 auto;
+	font: var(--font-smaller-text);
+	letter-spacing: var(--font-smaller-text-letter-spacing);
+	text-transform: none; /* слайд в uppercase, но URL так читать невозможно */
+	opacity: 0.55;
+	overflow-wrap: anywhere;
+}
