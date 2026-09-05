@@ -59,36 +59,6 @@
 		normal 400 var(--font-ui-regular-size) / 1.55 "JetBrains Mono";
 	--font-ui-meduim: normal 500 var(--font-ui-medium-size) / 1 "Inter";
 
-	/* extended palette (опциональные акценты для докладов) */
-	--indigo: #7c4ef1;
-	--violet: #a07cff;
-	--cyan: #46c6db;
-	--emerald: #2f9e6e;
-	--emerald-soft: #d8f1e6;
-	--amber: #d49232;
-	--amber-soft: #f9ebd2;
-	--rose: #d24a4a;
-	--rose-soft: #f4d8d8;
-
-	/* gradients */
-	--gradient-primary: linear-gradient(135deg, #566ae4 0%, #7c4ef1 100%);
-	--gradient-cool: linear-gradient(135deg, #3845cf 0%, #46c6db 100%);
-	--gradient-warm: linear-gradient(135deg, #d49232 0%, #d24a4a 100%);
-
-	/* surfaces & elevation */
-	--surface-1: rgba(86, 106, 228, 0.05);
-	--surface-2: rgba(86, 106, 228, 0.10);
-	--surface-3: rgba(86, 106, 228, 0.16);
-	--shadow-1: 0 1px 2px rgba(11, 4, 0, 0.04), 0 2px 8px rgba(11, 4, 0, 0.04);
-	--shadow-2: 0 2px 6px rgba(11, 4, 0, 0.05), 0 12px 32px rgba(11, 4, 0, 0.08);
-	--shadow-accent: 0 8px 32px rgba(86, 106, 228, 0.18);
-
-	/* radius scale */
-	--radius-sm: 6px;
-	--radius-md: 10px;
-	--radius-lg: 16px;
-	--radius-xl: 24px;
-
 	/* letter-spacings */
 	--font-heading-letter-spacing: -5%;
 	--font-pagination-letter-spacing: -5%;
@@ -103,47 +73,45 @@
 	--font-ui-mini-letter-spacing: -3.5%;
 }
 
-/* Light mode — OS preference */
-@media (prefers-color-scheme: light) {
-	:root {
-		--color: var(--grey-black);
-		--background: var(--light);
-		--border-color: var(--light-border);
-		--logo-bg-color: var(--grey-black);
-	}
-}
-
-/* Dark mode — OS preference */
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color: var(--white);
 		--background: var(--grey-black);
+
+		/* borders */
 		--border-color: var(--grey-border);
+
+		/* logo */
 		--logo-bg-color: var(--dark-blue);
 	}
 }
 
-/* Light mode — Slidev class toggle (overrides OS preference) */
-html:not(.dark) {
-	--color: var(--grey-black);
-	--background: var(--light);
-	--border-color: var(--light-border);
-	--logo-bg-color: var(--grey-black);
+@media (prefers-color-scheme: light) {
+	:root {
+		--color: var(--grey-black);
+		--background: var(--light);
+
+		/* borders */
+		--border-color: var(--light-border);
+
+		/* logo */
+		--logo-bg-color: var(--grey-black);
+	}
 }
 
-/* Dark mode — Slidev class toggle (overrides OS preference) */
-html.dark {
+/* Runtime theme toggle (Slidev API) */
+html.dark,
+:root.dark {
 	--color: var(--white);
 	--background: var(--grey-black);
 	--border-color: var(--grey-border);
 	--logo-bg-color: var(--dark-blue);
-	--surface-1: rgba(186, 189, 231, 0.06);
-	--surface-2: rgba(186, 189, 231, 0.12);
-	--surface-3: rgba(186, 189, 231, 0.18);
-	--shadow-1: 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.25);
-	--shadow-2: 0 2px 6px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.4);
-	--shadow-accent: 0 8px 32px rgba(124, 78, 241, 0.3);
-	--emerald-soft: rgba(47, 158, 110, 0.16);
-	--amber-soft: rgba(212, 146, 50, 0.16);
-	--rose-soft: rgba(210, 74, 74, 0.16);
+}
+
+html:not(.dark),
+:root.light {
+	--color: var(--grey-black);
+	--background: var(--light);
+	--border-color: var(--light-border);
+	--logo-bg-color: var(--grey-black);
 }

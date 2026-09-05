@@ -3,14 +3,7 @@
 	/* total content offset from edges: 1rem (outside) + 1rem (inside) */
 	padding: 2rem;
 	height: 100%;
-}
-
-/* Global heading scale — applied to all layouts */
-.slidev-layout h2 {
-	font: var(--font-h2);
-	letter-spacing: var(--font-heading-letter-spacing);
-	margin: 0 0 0.4rem;
-	opacity: 0.85;
+	color: var(--color);
 }
 
 /* бордер для всех слайдов */

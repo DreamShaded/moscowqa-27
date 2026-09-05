@@ -8,12 +8,15 @@ const showNumber = computed(() => currentPage.value > 1);
 </script>
 
 <template>
-  <div class="slidev-layout simple-slide">
-    <div class="my-auto w-full h-full">
+  <div class="slidev-layout center">
+    <div class="center__container">
       <slot />
     </div>
     <div v-if="showNumber" class="slide-number">
       {{ currentPage }}
     </div>
   </div>
+  
 </template>
+
+

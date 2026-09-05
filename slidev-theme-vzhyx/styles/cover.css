@@ -23,13 +23,15 @@
 
 .cover__line {
 	font: var(--font-regular-text);
+	font-size: 1.5rem;
 	letter-spacing: var(--font-smaller-text-letter-spacing);
 	opacity: 0.95;
 }
 
 .cover__tags {
-	margin-top: 0.25rem;
+	margin-top: 0.5rem;
 	font: var(--font-alt-smaller-text);
+	font-size: 1.25rem;
 	letter-spacing: var(--font-alt-smaller-text-letter-spacing);
 	opacity: 0.8;
 }
@@ -37,8 +39,9 @@
 .cover h1 {
 	margin: 0 0 0.5rem;
 	font-weight: 700;
-	font-size: 1.75rem;
+	font-size: 4rem;
 	line-height: 1.08;
 	letter-spacing: -0.05em;
 	text-wrap: balance;
+	color: var(--color);
 }

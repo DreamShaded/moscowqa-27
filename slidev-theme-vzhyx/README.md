@@ -31,31 +31,15 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 ## Layouts
 
-| Layout | Description |
-|--------|-------------|
-| `cover` | Title slide with logo, meetup, and date meta |
-| `intro` | Speaker introduction with photo slot |
-| `simple-slide` | Content slide with heading and body area |
+This theme provides the following layouts:
+
+> TODO:
 
 ## Components
 
-| Component | Props | Description |
-|-----------|-------|-------------|
-| `LineChart` | `series`, `annotations?`, `xLabel?`, `yLabel?`, `width?`, `height?`, `xMin/xMax/yMin/yMax?` | Multi-series SVG line chart. Supports dashed lines, filled areas under curves, and vertical annotation lines with staggered labels. |
-| `GroupedBarChart` | `criteria`, `frameworks`, `width?`, `height?`, `maxValue?` | Grouped SVG bar chart. Renders one bar group per criterion, one bar per framework, with rotated x-axis labels and a legend row. |
+This theme provides the following components:
 
-### LineChart series format
-```ts
-{ id: string; label: string; color: string; dash?: boolean; fill?: boolean; data: { x: number; value: number }[] }
-```
-
-### GroupedBarChart criteria/frameworks format
-```ts
-// criteria
-{ id: string; label: string; values: Record<frameworkId, number> }
-// frameworks
-{ id: string; label: string; color: string }
-```
+> TODO:
 
 ## Contributing
 

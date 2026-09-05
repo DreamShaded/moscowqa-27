@@ -1,7 +1,9 @@
 # moscowqa-27
 
-Доклад для митапа MoscowQA 27. Слайды на [Slidev](https://sli.dev), тема — вендорная
-копия `slidev-theme-vzhyx` внутри репозитория (`./slidev-theme-vzhyx`).
+Доклад «Данные по ссылке + 4 нюанса» для митапа MoscowQA 27. Слайды на [Slidev](https://sli.dev),
+тема — вендорная копия `slidev-theme-vzhyx` внутри репозитория (`./slidev-theme-vzhyx`).
+
+Контент перенесён из доклада `moscowcss-29`.
 
 ## Команды
 

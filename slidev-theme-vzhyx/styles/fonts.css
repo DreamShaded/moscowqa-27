@@ -3,7 +3,7 @@
 	src:
 		local("Inter Medium"),
 		local("Inter-Medium"),
-		url("../fonts/inter/Inter-Medium.woff2") format("woff2");
+		url("/fonts/inter/Inter-Medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -14,7 +14,7 @@
 	src:
 		local("JetBrains Mono Regular"),
 		local("JetBrainsMono-Regular"),
-		url("../fonts/jetbrains/JetBrainsMono-Regular.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-Regular.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -25,7 +25,7 @@
 	src:
 		local("JetBrains Mono Italic"),
 		local("JetBrainsMono-Italic"),
-		url("../fonts/jetbrains/JetBrainsMono-Italic.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-Italic.woff2") format("woff2");
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -36,7 +36,7 @@
 	src:
 		local("JetBrains Mono Medium"),
 		local("JetBrainsMono-Medium"),
-		url("../fonts/jetbrains/JetBrainsMono-Medium.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-Medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -47,7 +47,7 @@
 	src:
 		local("JetBrains Mono Medium Italic"),
 		local("JetBrainsMono-MediumItalic"),
-		url("../fonts/jetbrains/JetBrainsMono-MediumItalic.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-MediumItalic.woff2") format("woff2");
 	font-weight: 500;
 	font-style: italic;
 	font-display: swap;
@@ -58,7 +58,7 @@
 	src:
 		local("JetBrains Mono SemiBold"),
 		local("JetBrainsMono-SemiBold"),
-		url("../fonts/jetbrains/JetBrainsMono-SemiBold.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-SemiBold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
@@ -69,7 +69,7 @@
 	src:
 		local("JetBrains Mono SemiBold Italic"),
 		local("JetBrainsMono-SemiBoldItalic"),
-		url("../fonts/jetbrains/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
 	font-weight: 600;
 	font-style: italic;
 	font-display: swap;
@@ -80,7 +80,7 @@
 	src:
 		local("JetBrains Mono Bold"),
 		local("JetBrainsMono-Bold"),
-		url("../fonts/jetbrains/JetBrainsMono-Bold.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-Bold.woff2") format("woff2");
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -91,7 +91,7 @@
 	src:
 		local("JetBrains Mono Bold Italic"),
 		local("JetBrainsMono-BoldItalic"),
-		url("../fonts/jetbrains/JetBrainsMono-BoldItalic.woff2") format("woff2");
+		url("/fonts/jetbrains/JetBrainsMono-BoldItalic.woff2") format("woff2");
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
