@@ -4,12 +4,19 @@ transition: slide-left
 mdc: true
 duration: 35min
 meetup: MoscowQA 27
-date: дата уточняется
+date: 05 сентября 2026
 tags: '#moscowqa'
 layout: cover
 ---
 
-# Данные по ссылке + 4 нюанса
+# Делаем второй мозг без регистрации и нейросетей
+
+<!--
+
+Периодически хайпует тема. Есть полезные штуки, есть бесполезные.
+Вижу знакомые лица, но для большинства я из немного другого мира
+
+-->
 
 ---
 transition: slide-left
@@ -22,18 +29,22 @@ layout: simple-slide
     <v-clicks>
       <ul>
         <li>Соорг самого стильного митапа Москвы</li>
-        <li>Влюблён во фронтенд</li>
+        <li>Влюблён в веб, но уже Data Sciencetanist</li>
         <li>Член программного комитета HolyJS</li>
         <li>Участник и контрибьютор сообществ</li>
         <li>Cтудент магистратуры ИТМО</li>
+        <li>ИМПЕРАТОР ЗАЩИЩАЕТ И ВЕРНЫЕ НАСЛЕДУЮТ ВЛАДЕНИЯ ЕГО</li>
       </ul>
     </v-clicks>
   </div>
   <div class="whoami-right">
-    <WhoAmI :images="['/images/whoami/1.jpg', '/images/whoami/2.jpg', '/images/whoami/3.jpg']" alt="Фото докладчика" />
+    <WhoAmI :images="['/images/whoami/1.jpg', '/images/whoami/2.jpg', '/images/whoami/3.jpg', '/images/whoami/4.jpg']" alt="Фото докладчика" />
   </div>
 </div>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -42,6 +53,9 @@ layout: center
 
 ## Уметь учиться эффективно
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -58,6 +72,10 @@ layout: simple-slide
   </v-clicks>
 </div>
 
+<!--
+
+-->
+
 ---
 transition: slide-left
 layout: center
@@ -65,6 +83,9 @@ layout: center
 
 ![](/images/slides/obsidian.png)
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -84,6 +105,9 @@ layout: simple-slide
   
 </TransitionGroup>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -91,6 +115,10 @@ layout: center
 ---
 
 ![](/images/slides/barbara_oakly.jpg)
+
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -110,6 +138,9 @@ layout: simple-slide
 
 </v-clicks>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -117,6 +148,10 @@ layout: center
 ---
 
 ![](/images/slides/zametki.jpg)
+
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -134,12 +169,20 @@ layout: simple-slide
 
 </v-clicks>
 
+<!--
+
+-->
+
 ---
 transition: slide-left
 layout: center
 ---
 
 <img src="/images/slides/graph.png" class="center-wide" />
+
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -148,6 +191,9 @@ layout: center
 
 ![](/images/slides/second_brain.jpg)
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -171,6 +217,9 @@ layout: simple-slide
 
 </v-after>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -178,6 +227,10 @@ layout: center
 ---
 
 ## Медиазапросы и rem
+
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -208,6 +261,9 @@ html {
 
 </v-click>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -257,6 +313,10 @@ initial = medium
 
 </v-click>
 
+<!--
+
+-->
+
 ---
 transition: slide-left
 layout: simple-slide
@@ -272,6 +332,9 @@ layout: simple-slide
 
 </v-clicks>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -286,6 +349,9 @@ layout: simple-slide
 
 <button class="btn btn-rem"> Йа кнопко в Рёмках! </button>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -300,6 +366,9 @@ layout: simple-slide
 
 <button class="btn btn-rem-big"> Йа кнопко в Рёмках! </button>
 
+<!--
+
+-->
 
 ---
 transition: slide-left
@@ -318,6 +387,10 @@ layout: simple-slide
 
 </v-clicks>
 
+<!--
+
+-->
+
 ---
 transition: slide-left
 layout: cover
@@ -327,3 +400,7 @@ tags: '#moscowqa'
 ---
 
 # Спасибо! <3 
+
+<!--
+
+-->
